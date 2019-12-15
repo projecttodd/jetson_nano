@@ -22,6 +22,8 @@ set -e
 folder=${HOME}/src
 mkdir -p $folder
 
+echo "Welcome to the OpenCV v3.4.6 installer for Todbot. For more information visit https://todbot.co."
+
 echo "** Purge old opencv installation"
 sudo apt-get purge -y libopencv*
 
